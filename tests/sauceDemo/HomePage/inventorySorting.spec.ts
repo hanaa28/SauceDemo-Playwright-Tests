@@ -1,5 +1,5 @@
 import { test, expect, Page } from '@playwright/test';
-import { login } from './helpers';
+import { login } from '../helpers';
 
 // Locator for the sort dropdown
 const SORT = '[data-test="product-sort-container"]';

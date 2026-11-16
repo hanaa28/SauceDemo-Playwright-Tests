@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { login, cartBadge, BASE } from './helpers';
+import { login, cartBadge, BASE } from '../helpers';
 
 test.beforeEach(async ({ page }) => {
   await login(page);

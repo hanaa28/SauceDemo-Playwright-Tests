@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { login, cartBadge } from './helpers';
+import { login, cartBadge } from '../helpers';
 
 // Before each test: log in as standard_user and land on the inventory page
 test.beforeEach(async ({ page }) => {
